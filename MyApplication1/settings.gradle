@@ -1,0 +1,37 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "MyApplication1"
+include ':app'
+include ':myapplication2'
+include ':myapplication3'
+include ':myapplication4'
+include ':exts'
+include ':myapplication5'
+include ':myapplication6'
+include ':myapplication7'
+include ':myapplication8'
+include ':myapplication9'
+include ':myapplication10'
+include ':myapplication11'
+include ':myapplication12'
+include ':myapplication13'
+include ':myapplication14'
+include ':myapplication15'
+include ':myapplication16'
+include ':myapplication17'
+include ':myapplication18'
+include ':myapplication19'
+include ':myapplication20'
+include ':ch9_resource'
